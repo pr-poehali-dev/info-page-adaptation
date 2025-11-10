@@ -2,11 +2,13 @@
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4 color-black text-black">Добро пожаловать!</h1>
-        <p className="text-xl text-gray-600">тут будет отображаться ваш проект</p>
-      </div>
+    <div className="min-h-screen w-full flex items-center justify-center bg-white px-4">
+      <a 
+        href="mailto:info@dot-studio.ru"
+        className="text-[#333333] text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-light tracking-wide hover:opacity-70 transition-opacity duration-300 animate-fade-in"
+      >
+        info@dot-studio.ru
+      </a>
     </div>
   );
 };
